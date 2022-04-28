@@ -13,15 +13,16 @@
 
 # TSC prod output. This has to be in sync with the to directories in ./src, and with npm script clean
 
-/*.js
-/*.js.map
-/*.d.ts
-/*.d.ts.map
-/builtin-tasks
-/common
-/internal
-/types
-/utils
+# /*.js
+# /*.js.map
+# /*.d.ts
+# /*.d.ts.map
+# /builtin-tasks
+# /common
+# /internal
+# /types
+# /utils
+/test
 
 test/internal/hardhat-network/provider/.hardhat_node_test_cache/
 !.eslintrc.js
